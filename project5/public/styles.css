@@ -1,0 +1,635 @@
+body {
+    background-color: rgb(220, 220, 220);
+    height:100%;
+    margin:0;
+    padding:0;
+ }
+ /*header*/
+
+ header h1{
+    text-align: center;
+
+ }
+ 
+ #hamburger div {
+     width: 35px;
+     height: 5px;
+     background-color: black;
+     margin: 10px 0;
+     display: hidden;
+ }
+
+.home-page-boxes a {
+    text-decoration: none;
+    color: white;
+}
+ 
+ 
+ .hide-small {
+     display: none;
+ }
+ 
+ .show {
+     display: block;
+ }
+
+ header{
+    margin-top: -20px;
+ }
+ 
+ #header-image {
+     
+     border: 1px solid rgb(255, 255, 255);
+     padding: 0;
+     margin-top: -10000px;
+ }
+ 
+ #login-info h1{
+     background-color: rgb(220, 220, 220);
+     margin-left: 30%;
+     text-align: center;;
+     width: 50%;  
+ }
+ 
+ .movement-main-nav {
+     margin: auto;
+     text-align: center;
+     text-decoration: none;
+ 
+ }
+ 
+ #main-nav a:hover{
+     color: rgb(200, 123, 123);
+     text-decoration: underline;
+     
+ }
+ 
+ #main-nav h2{
+     margin: auto;
+ 
+ }
+ 
+ #main-nav a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ #home-main-img img{
+     width:100%;
+     height: 100%;
+ }
+ /*Home Page*/
+ 
+ #home-page {
+     background-color: rgb(220, 220, 220);
+ }
+ 
+ #home-page h1{
+     text-align: center;
+     font-size: xx-large;
+     background-color: rgb(220, 220, 220);
+ }
+ 
+ .home-page-boxes{
+     text-align: center;
+     margin: auto;
+     width: 150px;
+     border-radius: 30px;
+     height: 200px;
+     
+ }
+ #home-boxes {
+     margin: auto;
+ }
+ 
+ .home-page-arrows p{
+     height: 100%;
+     font-size: xx-large;
+ }
+ 
+ #home-main-img {
+     width: 100%;}
+ 
+ 
+ #home-earrings {
+     border-radius: 10px;
+ }
+ 
+ #home-rings {
+     border-radius: 10px;
+ }
+ 
+ #home-necklaces {
+     border-radius: 10px;
+ }
+ 
+ #home-bracelets {
+     border-radius: 10px;
+ }
+ 
+ .mini-photos {
+     position: relative;
+ }
+ 
+ .mini-photos p{
+     position: absolute;
+     top: 79%;
+     left: 0%;
+     color: white;
+     text-align: center;
+     width: 100%;
+     background-color: black;
+ 
+     
+     
+     border-radius: 0 0 10px 10px;
+ 
+ }
+ 
+ 
+ /* about page */
+ 
+ #about-big-img img{
+     width:100%;
+     height: 10%;
+ }
+ 
+ #about-us {
+     text-align: center;
+     font-size: large;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ /*store*/
+ .p-flex {
+    margin: 0;
+    padding-left: 5px;
+    list-style-type: none;
+    margin-left: 37px;
+
+}
+
+.p-flex ul{
+    list-style-type: none;
+}
+
+.img-flexing {
+    display: block;
+    
+}
+
+
+.img-sizer {
+    width: 200px;
+    height: 200px;;
+}
+
+/*
+.img-sizer:hover {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+}
+*/
+
+#store a{
+    text-decoration: none;
+    color: black;
+}
+
+#store a:hover{
+    text-decoration: none;
+    color: rgb(206, 67, 67);
+}
+
+.section {
+    display: flex;
+    background-color: rgb(220, 220, 220);
+    border: dotted black;
+}
+
+
+/*
+
+
+/*ring page*/
+
+ .jewelry-photos {
+     padding: auto;
+     border: 5px solid black;
+ }
+ 
+ 
+ .store-page-boxes {
+     margin: auto;
+ 
+ }
+ 
+ .mini-store-photos {
+     background-color: none;
+     height: 221px;
+     margin-left: 0%;
+     position: relative;
+     width: 100px;
+     margin-top: 20%;
+ }
+ 
+ #store-image {
+     margin-left: 0;
+     border-radius: 10px;
+ }
+ 
+ #store-image p{
+     text-align: center;
+ }
+ 
+ 
+ 
+ .mini-store-photos p{
+     margin: auto;
+     position: absolute;
+     top: 80%;
+     left: 0%;
+     color: white;
+     text-align: center;
+     width: 100px;
+     background-color: black;
+ 
+     flex: 50%;
+         
+     border-radius: 0 0 10px 10px;
+ }
+ #store {
+     margin: 10px;
+ }
+*/
+
+
+
+#comment-boxes input{
+    display: block;
+}
+
+#edit-jewel-boxes input{
+    display:block;
+}
+ 
+ /*reviews*/
+
+ #add-jewelry-link {
+    text-decoration: none;
+    color: black;  
+ }
+
+ #add-jewelry-link:hover {
+    text-decoration: none;
+    color: rgb(227, 23, 57);  
+ }
+
+
+ #edit-jewelry-link {
+    text-decoration: none;
+    color: black;  
+ }
+
+ #edit-jewelry-link:hover {
+    text-decoration: none;
+    color: rgb(227, 23, 57);  
+ }
+
+ #delete-jewelry-link {
+    text-decoration: none;
+    color: black;  
+ }
+
+ #delete-jewelry-link:hover {
+    text-decoration: none;
+    color: rgb(227, 23, 57);  
+ }
+
+ .border-for-reviews {
+    border: dotted;
+ }
+ #comments {
+     border: dotted;
+     min-height: 794px;
+ }
+ #txt-comment {
+     height: 50px;
+     width: 50%;
+ 
+ }
+ 
+ #txt-column {
+     border: dotted;
+     height: 100px;
+     width: 99%;
+     margin-right: 0;
+ }
+ #leave-a-comment {
+     width: 100%;
+    padding-left: 10px;
+     flex: 1;
+ }
+ #comment-section h2{
+     text-align: center;
+ }
+ 
+ #comment-section {
+     margin-bottom: 5%;
+     border: dotted;
+     flex: 1;
+ }
+ 
+.separation {
+    border: dotted;
+    height: 0.1px;
+    border-width: 0.1px;
+   color: none;
+
+}
+
+
+
+
+
+ /*contact us*/
+
+ #find-me-forms {
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 13%;
+    padding: auto;
+    border: dotted;
+ }
+
+ #map {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: auto;
+    height: 300px;
+    width: 80%;
+ }
+ 
+ #contact-us {
+     border: dotted;
+ }
+ 
+ #credentials {
+    padding-left: 15%;
+     margin-top: 10%;
+     width: 100%;
+     height: 75%;
+     
+ }
+ 
+ #contact-store-front {
+     width: 100%;
+ }
+ 
+ #address {
+     height: 50%;
+     display: block;
+ }
+ 
+ 
+ #contact-title {
+     text-align: center;
+ }
+ 
+ #contact-image {
+     margin-top: 10%;
+     margin-bottom: 10%;
+ 
+     padding-left: 20%;
+ }
+ 
+
+
+ .columns {
+    border: dotted;
+    width: 80%;
+    
+ }
+ #forms {
+    border: dotted;
+    padding-left: 40%;
+    padding-right: 50%;
+
+ }
+ 
+ /*potentially useful classes*/
+ 
+ .parallax {
+     height: 50vh;
+     opacity: 0.65;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index:10;
+     overflow:hidden;
+     position: relative;
+ 
+   }
+ 
+   .engagement-ring {
+     background-image: url(images/hand-ring-home.jpg);
+   }
+ 
+   /*above is MINIMUM 339px*/
+ 
+   @media only screen and ((max-width: 499px) and (min-width: 100px)) {
+    header{
+        margin-top: -20px;
+     }
+     .mini-photos p{
+         position: absolute;
+         top: 80%;
+         left: 0%;
+         color: white;
+         text-align: center;
+         width: 100%;
+         background-color: black;
+ 
+         
+         flex: 50%;
+         
+         border-radius: 0 0 10px 10px;
+     
+     }
+ 
+     .home-page-boxes{
+         text-align: center;
+         margin: auto;
+         width: 150px;
+         border-radius: 30px;
+         height: 200px;
+         
+         display: flex;
+         flex: 50%;
+     }
+ 
+     #home-page-boxes{
+         flex-wrap: wrap;
+         flex: 40%;
+     }
+ 
+     .mini-store-photos {
+        
+         height: 221px;
+         margin: auto;
+     }
+
+     #find-me-forms {
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 13%;
+        padding: auto;
+        border: dotted;
+     }
+    
+     #map {
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-bottom: auto;
+        height: 300px;
+        width: 80%;
+     }
+ }
+ 
+ 
+ 
+ @media only screen and (min-width: 1000px) { 
+     #login-info {
+         display: flex;
+     }
+     #main-nav{
+         display: flex;
+     }
+     #home-boxes{
+         display: flex;
+         flex: 40%;
+     }
+     #store{
+         flex: wrap;
+     }
+     #store-image {
+         margin-left: 0%;
+     }
+     .jewelry-photos {
+         display: flex;
+     }
+     .title-of-jewelry {
+         display: flex;
+     }
+ 
+ 
+     .home-page-boxes {
+         
+         width: 40%;
+     }
+ 
+     #flex-container-reviews {
+         display: flex;
+         width: 100%;
+     }
+     #hamburger div{
+         display: none;
+     }
+     .movement-main-nav {
+        
+         margin: auto;
+         display: flex;
+     }
+     #address {
+         display: flex;
+         margin: auto;
+     }
+ 
+     .mini-photos p{
+         position: absolute;
+         top: 80%;
+         left: 0%;
+         color: white;
+         text-align: center;
+         width: 100%;
+         background-color: black;
+         
+         border-radius: 0 0 10px 10px;
+     
+     }
+ 
+     .home-page-boxes{
+         text-align: center;
+         margin: auto;
+         width: 150px;
+         border-radius: 30px;
+         height: 200px;
+         
+     }
+ 
+ 
+
+     
+
+ .columns {
+    border: dotted;
+    width: 70%;
+    min-height: 794px;
+    border-width: 1px;
+ }
+ }
+ 
+ 
+ @media only screen and ((max-width: 499px) and (min-width: 100px)) {
+
+    
+    #header-image {
+        display: none;
+    }
+
+    #login-info{
+        background-color: rgb(220, 220, 220);
+        margin-left: 30%;
+        width: 50%;
+        text-align: center;
+    }
+     .mini-photos p{
+         position: absolute;
+         top: 80%;
+         left: 0%;
+         color: white;
+         text-align: center;
+         width: 100%;
+         background-color: black;
+         
+         border-radius: 0 0 10px 10px;
+     
+     }
+ 
+     .mini-store-photos {
+         height: 221px;
+         margin: auto;
+     }
+ 
+     #home-page-boxes{
+         flex-wrap: wrap;
+         flex: 40%;
+     }
+
+     .columns {
+        border: dotted;
+        width: 100%;
+     }
+ }
+
+
+ @media only screen and ((max-width: 700px)) {
+    #header-image {
+        display: none;
+    }
+ }

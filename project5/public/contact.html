@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>CSCE 242: Web Applications Project</title> 
+        <link rel="stylesheet" href="styles.css" >
+        
+    </head>
+   
+    <header>
+        <h1><strong>PACICCO & PACICCO JEWELRY</strong></h1>
+        <div id="login-info">
+           
+       </div>
+        
+       
+       <img id="header-image" src="images/p&p.jpg" alt="placeholder top left">
+        
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <div id="main-nav">
+                
+                    
+                <h2 class="movement-main-nav"> <a href="index.html">Home</a></h2>
+                   
+                <h2 class="movement-main-nav"> <a href="about.html">About</a></h2>
+                    
+                <h2 class="movement-main-nav"> <a href="store.html">Store</a></h2>
+                    
+                <h2 class="movement-main-nav"> <a href="reviews.html">Review</a></h2>
+                    
+                <h2 class="movement-main-nav"> <a href="contact.html">Contact</a></h2>
+                
+                
+            </div>
+
+            
+
+</header>
+
+<body>
+
+    <h1 id="contact-title"><u>CONTACT US TODAY!</u></h1>
+    <section id="contact-us">
+        <div id="address">
+            <div id="credentials">
+                <h1>Michael Pacicco</h1>
+                <h4>Phone: 123-456-7890 </h4>
+                <h4>Email: mpFake@gmail.com</h4>
+                <h4>123 Happy Street, NYC NY 12345</h4>
+            </div>  
+
+            <div id="contact-store-front">
+                <img id="contact-image" src="images/location-contact-us.jpg" alt="placeholder top left">
+            </div>
+        </div>
+    </section>
+    
+    <section id="find-me-forms">
+        
+        <br>
+        
+        <!--emailing-->
+        <div id="actual-form">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+
+                <input type="hidden" name="access_key" value="6e72c1f0-97fc-46df-a39a-11faf43857b6">
+
+                <p>
+                    <label for="name">Whats your name:</label>
+                <input type="text" id="user-name" name="user-name" >
+                </p>
+
+            <p>
+                    <label for="birth-date">Schedule an Appointment:</label>
+                    <input type="date" id="birth-date" > 
+            </p> 
+
+                <!--clickabe form-->
+
+                <label for="how-cool-are-you">How much are you willing to spend:</label>
+                <p>
+                <input type="radio" name="rate-our-jewelry" value="bad">
+                <label for="rate-our-jewelry" class="inline">Not a lot</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="how-cool-are-you" value="fine">
+                    <label for="how-cool-are-you" class="inline">Some Money</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="how-cool-are-you" value="awesome">
+                    <label for="how-cool-are-you" class="inline">Tons</label>
+                </p>
+                
+                <br>
+                <label for="email">Enter your email</label>
+                <br>
+                <input id="email-addy" type="email" placeholder="must utilize an @" >
+                <br>
+
+                <label for="personal-message">Send a Message</label>
+                <br>
+                <textarea id="personal-message" name="message" ></textarea>
+
+
+                <br>
+                <button id="submission">Submit</button>
+                <br>
+                <br>
+            
+            <!--where it printed-->
+                <p id="result"></p>
+            
+            </form>
+        </div>
+        <div id="map">
+            <iframe  id="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2838.469630936694!2d-73.98216699815592!3d40.757883365400964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258ff72f74b71%3A0x510c1925d315ae70!2sunderground%20level%2C%201196%206th%20Ave%20unit%201%2C%20New%20York%2C%20NY%2010036!5e0!3m2!1sen!2sus!4v1697647723517!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div> 
+            
+            
+        <script src="contact-script.js"></script>
+    </body>
+
+
+</html>

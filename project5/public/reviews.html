@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSCE 242: Web Applications Project</title> 
+        <link rel="stylesheet" href="styles.css" >
+        <script src="script.js"></script>
+    </head>
+   
+    <header>
+        <h1><strong>PACICCO & PACICCO JEWELRY</strong></h1>
+        <div id="login-info">
+           
+       </div>
+        
+       
+       <img id="header-image" src="images/p&p.jpg" alt="placeholder top left">
+        
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <div id="main-nav">
+                
+                    
+                <h2 class="movement-main-nav"> <a href="index.html">Home</a></h2>
+                   
+                <h2 class="movement-main-nav"> <a href="about.html">About</a></h2>
+                    
+                <h2 class="movement-main-nav"> <a href="store.html">Store</a></h2>
+                    
+                <h2 class="movement-main-nav"> <a href="reviews.html">Review</a></h2>
+                    
+                <h2 class="movement-main-nav"> <a href="contact.html">Contact</a></h2>
+                
+                
+            </div>
+
+            
+
+</header>
+
+    <body>
+        
+        <section id="comments">
+            <div id="flex-container-reviews">
+                <div id="leave-a-comment">
+                    <h2>LEAVE A REVIEW!</h2>
+                   
+                
+                            
+                    <div id="form-flexer">
+                        
+                            
+                        <section id="adding-section"> 
+                        
+
+                            <h3 id="add-jewelry">Leave a review</h3>
+                            <form id="add-JEWELS-form" method="post" class="form-class">
+                                <input type="hidden" name="_id" value="-1" />
+                                <p>
+                                    <label for="name "> Name:</label>
+                                    <input type="text" id="name" name="name" required />
+                                </p>
+                                <p>
+                                    <label for="description"> Review:</label>
+                                    <input type="text" id="description" name="description" required />
+                                </p>
+
+
+                                <p id="jewels-added">
+                                    <label class="inline">What did you buy? </label>
+                                    
+                                    <a href="#" id="add-jewelry-link">To Add Item Box, CLICK HERE</a>
+                                    <section id="comment-boxes">
+                                        
+                                    </section>
+                                </p>
+
+                                
+
+                                <p>
+                                    <button type="submit">Submit Addition</button>
+                                </p>
+                            </form>
+
+                        </section>
+
+                        <section id="edit-section">
+                            <h3 id="edit-jewelry">Edit Your Review</h3>
+                            <form id="edit-JEWELS-form" method="post" class="form-class">
+                                <input type="hidden" name="_id" value="-1" /><!--change text to hiidden-->
+                                <p>
+                                    <label for="name "> Name:</label>
+                                    <input type="text" id="name" name="name" required />
+                                </p>
+                                <p>
+                                    <label for="description"> New Description:</label>
+                                    <input type="text" id="description" name="description" required />
+                                </p>
+
+
+                                <p id="jewels-added">
+                                    <label class="inline"> New items: </label>
+                                    <a href="#" id="edit-jewelry-link">To Add Item Box, CLICK HERE</a>
+                                    <section id="edit-jewel-boxes">
+                                        
+                                    </section>
+                                </p>
+
+                                <a href="#" id="delete-jewelry-link">To Delete This Item, CLICK HERE</a>
+
+                                <p>
+                                    <button type="submit">Submit Edit</button>
+                                </p>
+                            </form>
+                        </section>
+                            
+                    </div> 
+
+
+                </div>
+
+                
+
+
+                        
+                        <p id="new-comment" class="hide-small"></p>
+            
+                <section class="columns">
+
+                <h2>Listen to some of our customers below:</h2>
+                    <section id="store" ><!--poorly named-->
+                       
+                    </section>
+                    <div id = "jewel-details" class="hide-small">
+
+                    </div>
+                    
+                    
+            </section>    
+                    
+                
+            </div>  
+            
+                        
+                
+            
+        </section>
+        
+    </body>
+    
+</html>

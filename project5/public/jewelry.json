@@ -1,0 +1,47 @@
+[
+    {
+        "jewelId": "1",
+        "name": "Engagement ring",
+        "category": "fingers",
+        "materials" : "diamonds, silver, gold, or platinum",
+        "price": "$100 - $1000",
+        "description": "Introducing the epitome of elegance and romance. Crafted with the finest, ethically sourced diamonds, this enchanting piece features a brilliant round-cut center stone, set in a delicate platinum band adorned with pavé diamonds. Its breathtaking design symbolizes eternal love and commitment, making it the perfect choice to capture a moment that lasts forever. A true testament to your everlasting bond.",
+        "img": "images/wedding-ring-store.jpg"
+    },
+    {
+        "jewelId": "2",
+        "name": "Earrings",
+        "category": "face",
+        "materials" : "any stone, any metal",
+        "price": "$20 - $800",
+        "description": "Elevate your style with our exquisite earrings, a dazzling fusion of sophistication and charm. These statement earrings feature lustrous freshwater pearls gracefully suspended beneath shimmering Swarovski crystal-studded starbursts. With their versatile design, these earrings effortlessly transition from daytime chic to evening glamour, making them the perfect accessory to accentuate your unique beauty. Radiate confidence and grace with any of the earrings in our selection, as they are a captivating embodiment of timeless allure and celestial allure.",
+        "img": "images/studs-store.jpg"
+    },
+    {
+        "jewelId": "3",
+        "name": "Bracelet",
+        "category": "hands",
+        "materials" : "any stone, any metal",
+        "price": "$50 - $500",
+        "description": "Discover the epitome of wrist adornment with our exquisite collection of bracelets. Handcrafted with precision and attention to detail, each bracelet is a work of art that seamlessly combines modern trends with timeless elegance. Whether you seek a statement piece for a special occasion or a daily dose of sophistication, our bracelets offer a captivating blend of style, quality, and versatility, ensuring you'll shine with unparalleled grace and charm. Elevate your jewelry collection and embrace the allure of our bracelets, destined to become your signature accessory.",
+        "img": "images/bracelet-store.jpg"
+    },
+    {
+        "jewelId": "4",
+        "name": "Medals",
+        "category": "neck",
+        "materials" : "gold, platinum",
+        "price": "$70 - $200",
+        "description": "Indulge in a symbol of divine protection and grace with our meticulously crafted miraculous medals. These exquisite pieces serve as a testament to faith and belief, their intricately detailed designs encapsulating the spiritual connection you hold dear. Each medal is a source of comfort and inspiration, a tangible reminder of the blessings and miracles that life can bestow. Embrace the profound spirituality and timeless beauty of these medals, and carry with you a token of hope, love, and the extraordinary in every moment.",
+        "img": "images/medals-store.jpg"
+    },
+    {
+        "jewelId": "5",
+        "name": "Necklace",
+        "category": "neck",
+        "materials" : "any stone, any metal",
+        "price": "$50 - $300",
+        "description": "Elevate your personal style with our captivating necklace, a true embodiment of elegance and individuality. Its meticulously handcrafted design seamlessly blends modern aesthetics with classic charm, creating a piece that effortlessly complements any outfit. Adorn yourself with this necklace to express your unique personality, make a lasting impression, and revel in the beauty of fine craftsmanship that is bound to turn heads and become a cherished symbol of your taste and sophistication.",
+        "img": "images/cuban-chain-store.jpg"
+    }
+]

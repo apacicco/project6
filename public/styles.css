@@ -585,9 +585,12 @@ body {
  }
  
  
- @media only screen and ((max-width: 499px) and (min-width: 100px)) {
+ @media only screen and ((max-width: 999px) and (min-width: 500px)) {
 
+    .store-page-boxes {
+        margin: auto;
     
+    }
     #header-image {
         display: none;
     }
